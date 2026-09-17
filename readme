@@ -1,6 +1,59 @@
+# Preserva IFPE
+
+Sistema de preservação e gestão de materiais escolares do **Campus Jaboatão dos Guararapes — IFPE**.
+
+O aplicativo ajuda alunos, responsáveis e a instituição a acompanhar materiais, empréstimos, doações e estoque, com interface pensada para uso no celular e no computador.
+
+---
+
+## Sobre o projeto
+
+O Preserva IFPE nasceu para organizar o ciclo de vida dos materiais escolares: cadastro, empréstimo, fiscalização, doação e relatórios.
+
+Além das telas de acompanhamento institucional, o sistema inclui um módulo funcional de **doações**, com persistência local, atualização automática de estoque e geração de relatório.
+
+---
+
+## Funcionalidades
+
+### Gestão institucional
+- Tela inicial com visão geral do sistema
+- Meus materiais (livros e prazos de devolução)
+- Mapa de salas do campus
+- Câmeras e avisos
+- Campanhas de preservação
+- Fiscalização de materiais
+- Monitoria parental
+- Empréstimos e aprovação de solicitações
+- Prêmios, ranking e gamificação
+
+### Módulo de doações
+- Cadastro de doadores (nome, escola, série e responsável)
+- Cadastro de materiais escolares (nome, quantidade, categoria e estado)
+- Edição e exclusão de registros
+- Registro de doações com seleção de doador, materiais, quantidade e data
+- Atualização automática do estoque ao registrar uma doação
+- Relatório de doações com filtro por doador, data e busca
+- Exportação do relatório em arquivo `.txt`
+
+---
+
+## Tecnologias
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide Icons
+- Persistência local com `localStorage`
+
+---
+
+## Como executar
+
+```bash
+npm install
+npm run dev
+
 Nome da empresa : project.777
 nome do projeto :Preserva IFPE
-Descrição do projeto = um sistema responsável pela doaçâo de materiais
-Objetivo = tornar as trocas de itens mais faceis
-Tecnologias utilizadas = typescript,react,css,html e javascript
-Componentes da equipe = Vinicius valentim (scrum master),Mateus Felix (desenvolvedor)
